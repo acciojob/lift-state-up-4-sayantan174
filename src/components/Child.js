@@ -4,7 +4,7 @@ const Child = (props) => {
   return (
     <>
       <h1>Child Component</h1>
-      <ul>
+      <ul className="child">
         {/* <li> <button onClick={}>Remove</button></li> */}
         {props.item.map((value, i) => {
           return (
