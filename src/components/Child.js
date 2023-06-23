@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 const Child = (props) => {
   return (
-    <div  className="child">
+    <div className="child">
       <h1>Child Component</h1>
       <ul>
-        {/* <li> <button onClick={}>Remove</button></li> */}
+        <li>fdssf </li>
         {props.item.map((value, i) => {
           return (
             <li key={i + 1}>
