@@ -5,7 +5,7 @@ const Child = (props) => {
     <div className="child">
       <h1>Child Component</h1>
       <ul>
-        <li>fdssf </li>
+        <li>fdssf <button>hjhk</button></li>
         {props.item.map((value, i) => {
           return (
             <li key={i + 1}>
