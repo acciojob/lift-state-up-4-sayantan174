@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 const Child = (props) => {
   return (
-    <>
+    <div  className="child">
       <h1>Child Component</h1>
-      <ul className="child">
+      <ul>
         {/* <li> <button onClick={}>Remove</button></li> */}
         {props.item.map((value, i) => {
           return (
@@ -22,7 +22,7 @@ const Child = (props) => {
           );
         })}
       </ul>
-    </>
+    </div>
   );
 };
 
